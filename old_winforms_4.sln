@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.34829.251
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generalTask1", "old_winforms_4\generalTask1.csproj", "{269A7E05-8690-42BD-A7A3-40BFFFC68DFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generalTask1", "generalTask1\generalTask1.csproj", "{269A7E05-8690-42BD-A7A3-40BFFFC68DFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generalTask2", "generalTask2\generalTask2.csproj", "{AD704699-DD65-4B67-A9EC-8FED5459722D}"
 EndProject
