@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace old_winforms_4
+namespace generalTask2
 {
     public partial class Form1 : Form
     {
@@ -19,13 +19,12 @@ namespace old_winforms_4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
-            form2.Show();
-        }
+            textBox1.Text = "x \t y \r\n";
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
+            for(double x = (-1.0)*Math.PI; x <= Math.PI; x += Math.PI/6.0)
+            {
+                textBox1.Text += String.Format("{0, 10:F3} \t {1, 10:F3}\r\n", x, 2 * Math.Cos(x));
+            }
         }
     }
 }
